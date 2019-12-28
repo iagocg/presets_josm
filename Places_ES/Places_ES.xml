@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+author="iago"
+shortdescription="Places_ES"
+es.shortdescription="Lugares_ES"
+gl.shortdescription="Lugares_ES"
+description="Tag easily places (entities and territories) from Spain."
+version="1.2019-12-27"
+link="https://github.com/iagocg/presets_josm/tree/master/Places_ES"
+icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_16/city.png"
+baselanguage="en"
+>
+<!--
+    Author: Iago Casabiell González
+    Icons created by: Iago Casabiell González
+    Code derived from: http://josm.openstreetmap.de/tagging-preset-1.0
+
+    Format description: https://josm.openstreetmap.de/wiki/TaggingPresets
+-->
+  <!-- Item chunks -->
+    <chunk id="entities">
+        <text
+        key="name"
+        text="Name"
+        es.text="Nombre"
+        gl.text="Nome"
+        />
+        <combo
+        key="capital"
+        values_searchable="true"
+        values_sort="false"
+        >
+            <list_entry
+            value="2"
+            short_description="National capital"
+            es.short_description="Capital nacional"
+            gl.short_description="Capital nacional"
+            />
+            <list_entry
+            value="4"
+            short_description="Autonomical capital"
+            es.short_description="Capital autonómica"
+            gl.short_description="Capital autonómica"
+            />
+            <list_entry
+            value="6"
+            short_description="Province capital"
+            es.short_description="Capital provincial"
+            gl.short_description="Capital provincial"
+            />
+            <list_entry
+            value="7"
+            short_description="County capital"
+            es.short_description="Capital comarcal"
+            gl.short_description="Capital comarcal"
+            />
+            <list_entry
+            value="8"
+            short_description="Municipality capital"
+            es.short_description="Capital municipal"
+            gl.short_description="Capital municipal"
+            />
+            <list_entry
+            value="9"
+            short_description="Submunicipal capital"
+            es.short_description="Capital de parroquia civil o pedanía"
+            gl.short_description="Capital de parroquia civil"
+            />
+        </combo>
+        <check
+        key="maritime"
+        text="Maritime"
+        es.text="Marítima"
+        gl.text="Marítima"
+        />
+        <text
+        key="population"
+        text="Population"
+        es.text="Población"
+        gl.text="Poboación"
+        />
+        <text
+        key="population:date"
+        text="Population census year"
+        es.text="Año del censo de población"
+        gl.text="Ano do censo de poboación"
+        />
+        <text
+        key="source:population"
+        text="Population census source"
+        es.text="Fuente del censo de población"
+        gl.text="Fonte do censo de poboación"
+        />
+        <text
+        key="ref"
+        text="INE code"
+        es.text="Código INE"
+        gl.text="Código INE"
+        />
+        <text
+        key="wikipedia"
+        text="Wikipedia"
+        />
+        <text
+        key="wikidata"
+        text="Wikidata"
+        />
+        <text
+        key="website"
+        text="Website"
+        es.text="Página web"
+        gl.text="Páxina web"
+        />
+        <text
+        key="source"
+        text="Source"
+        es.text="Fuente"
+        gl.text="Fonte"
+        />
+    </chunk>
+    <chunk id="territories">
+        <text
+        key="name"
+        text="Name"
+        es.text="Nombre"
+        gl.text="Nome"
+        />
+        <check
+        key="maritime"
+        text="Maritime"
+        es.text="Marítima"
+        gl.text="Marítima"
+        />
+        <text
+        key="population"
+        text="Population"
+        es.text="Población"
+        gl.text="Poboación"
+        />
+        <text
+        key="population:date"
+        text="Population census year"
+        es.text="Año del censo de población"
+        gl.text="Ano do censo de poboación"
+        />
+        <text
+        key="source:population"
+        text="Population census source"
+        es.text="Fuente del censo de población"
+        gl.text="Fonte do censo de poboación"
+        />
+        <text
+        key="ref"
+        text="INE code"
+        es.text="Código INE"
+        gl.text="Código INE"
+        />
+        <text
+        key="wikipedia"
+        text="Wikipedia"
+        />
+        <text
+        key="wikidata"
+        text="Wikidata"
+        />
+        <text
+        key="website"
+        text="Website"
+        es.text="Página web"
+        gl.text="Páxina web"
+        />
+        <text
+        key="source"
+        text="Source"
+        es.text="Fuente"
+        gl.text="Fonte"
+        />
+    </chunk>
+    <chunk id="sub_city">
+        <text
+        key="name"
+        text="Name"
+        es.text="Nombre"
+        gl.text="Nome"
+        />
+        <check
+        key="maritime"
+        text="Maritime"
+        es.text="Marítima"
+        gl.text="Marítima"
+        />
+        <text
+        key="population"
+        text="Population"
+        es.text="Población"
+        gl.text="Poboación"
+        />
+        <text
+        key="population:date"
+        text="Population census year"
+        es.text="Año del censo de población"
+        gl.text="Ano do censo de poboación"
+        />
+        <text
+        key="source:population"
+        text="Population census source"
+        es.text="Fuente del censo de población"
+        gl.text="Fonte do censo de poboación"
+        />
+        <text
+        key="ref"
+        text="INE code"
+        es.text="Código INE"
+        gl.text="Código INE"
+        />
+        <text
+        key="wikipedia"
+        text="Wikipedia"
+        />
+        <text
+        key="wikidata"
+        text="Wikidata"
+        />
+        <text
+        key="website"
+        text="Website"
+        es.text="Página web"
+        gl.text="Páxina web"
+        />
+        <text
+        key="source"
+        text="Source"
+        es.text="Fuente"
+        gl.text="Fonte"
+        />
+    </chunk>
+  <!--  Groups -->
+    <group name="Places_ES" icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/city.svg">
+        <item
+        name="Country"
+        es.name="País"
+        gl.name="País"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory02.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=country" />
+            <space />
+            <key key="place" value="country" />
+            <key key="admin_level" value="2" />
+            <reference ref="territories" />
+        </item> <!-- Country -->
+        <item
+        name="State"
+        es.name="Comunidad autónoma"
+        gl.name="Comunidade autónoma"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory04.svg"
+        name_context="place"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=state" />
+            <space />
+            <key key="place" value="state" />
+            <key key="admin_level" value="4" />
+            <reference ref="territories" />
+        </item> <!-- State -->
+        <item
+        name="Province"
+        es.name="Provincia"
+        gl.name="Provincia"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory06.svg"
+        name_context="place"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=province" />
+            <space />
+            <key key="place" value="province" />
+            <key key="admin_level" value="6" />
+            <reference ref="territories" />
+        </item> <!-- Province -->
+        <item
+        name="County"
+        es.name="Comarca"
+        gl.name="Comarca"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory07.svg"
+        name_context="place"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=county" />
+            <space />
+            <key key="place" value="county" />
+            <key key="admin_level" value="7" />
+            <reference ref="territories" />
+        </item> <!-- County -->
+        <item
+        name="Municipality"
+        es.name="Municipio"
+        gl.name="Municipio"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory08.svg"
+        name_context="place"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=municipality" />
+            <space />
+            <key key="place" value="municipality" />
+            <key key="admin_level" value="8" />
+            <reference ref="territories" />
+        </item> <!-- Municipality -->
+        <item
+        name="Civil Parish"
+        es.name="Parroquia civil"
+        gl.name="Parroquia civil"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory09.svg"
+        name_context="place"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=civil_parish" />
+            <space />
+            <key key="place" value="civil_parish" />
+            <key key="admin_level" value="9" />
+            <reference ref="territories" />
+        </item> <!-- Civil Parish -->
+        <item
+        name="Ward"
+        es.name="Entidad de población"
+        gl.name="Entidade de poboación"
+        short_description="Territory of a Ward"
+        es.short_description="Territorio de una entidad de población"
+        gl.short_description="Territorio dunha entidade de poboación"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/territory10.svg"
+        name_context="place"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=ward" />
+            <space />
+            <key key="place" value="ward" />
+            <key key="admin_level" value="10" />
+            <reference ref="territories" />
+        </item> <!-- Ward -->
+        <separator/>
+        <item
+        name="City"
+        es.name="Ciudad"
+        gl.name="Cidade"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/city.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=city" />
+            <space />
+            <key key="place" value="city" />
+            <key key="admin_level" value="10" />
+            <reference ref="entities" />
+        </item> <!-- City -->
+        <item
+        name="Town"
+        es.name="Villa"
+        gl.name="Vila grande"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/town.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=town" />
+            <space />
+            <key key="place" value="town" />
+            <key key="admin_level" value="10" />
+            <reference ref="entities" />
+        </item> <!-- Town -->
+        <item
+        name="Village"
+        es.name="Pueblo"
+        gl.name="Vila pequena"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/village.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=village" />
+            <space />
+            <key key="place" value="village" />
+            <key key="admin_level" value="10" />
+            <reference ref="entities" />
+        </item> <!-- Village -->
+        <item
+        name="Hamlet"
+        es.name="Aldea"
+        gl.name="Aldea"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/hamlet.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=hamlet" />
+            <space />
+            <key key="place" value="hamlet" />
+            <key key="admin_level" value="10" />
+            <reference ref="entities" />
+        </item> <!-- Hamlet -->
+        <item
+        name="Allotments"
+        es.name="Urbanización"
+        gl.name="Urbanización"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/allotments.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=allotments" />
+            <space />
+            <key key="place" value="allotments" />
+            <key key="admin_level" value="10" />
+            <reference ref="entities" />
+        </item> <!-- Allotments -->
+        <item
+        name="Isolated Dwelling"
+        es.name="Viviendas aisladas"
+        gl.name="Vivendas illadas"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/isolated_dwelling.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=isolated_dwelling" />
+            <space />
+            <key key="place" value="isolated_dwelling" />
+            <key key="admin_level" value="10" />
+            <reference ref="entities" />
+        </item> <!-- Isolated Dwelling -->
+        <separator/>
+        <item
+        name="Borough"
+        es.name="Distrito urbano"
+        gl.name="Distrito urbano"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/borough.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=borough" />
+            <space />
+            <key key="place" value="borough" />
+            <key key="admin_level" value="11" />
+            <reference ref="sub_city" />
+        </item> <!-- Borough -->
+        <item
+        name="Suburb"
+        es.name="Barrio"
+        gl.name="Barrio"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/suburb.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=suburb" />
+            <space />
+            <key key="place" value="suburb" />
+            <key key="admin_level" value="12" />
+            <reference ref="sub_city" />
+        </item> <!-- Suburb -->
+        <item
+        name="Quarter"
+        es.name="Cuarto"
+        gl.name="Cuarto"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/quarter.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=quarter" />
+            <space />
+            <key key="place" value="quarter" />
+            <key key="admin_level" value="13" />
+            <reference ref="sub_city" />
+        </item> <!-- Quarter -->
+        <item
+        name="Neighbourhood"
+        es.name="Vecindario"
+        gl.name="Vecindario"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/neighbourhood.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=neighbourhood" />
+            <space />
+            <key key="place" value="neighbourhood" />
+            <key key="admin_level" value="14" />
+            <reference ref="sub_city" />
+        </item> <!-- Neighbourhood -->
+        <item
+        name="City Block"
+        es.name="Manzana"
+        gl.name="Mazá"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/city_block.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=city_block" />
+            <space />
+            <key key="place" value="city_block" />
+            <key key="admin_level" value="15" />
+            <reference ref="sub_city" />
+        </item> <!-- City Block -->
+        <item
+        name="Plot"
+        es.name="Parcela"
+        gl.name="Parcela"
+        icon="https://github.com/iagocg/presets_josm/blob/master/Places_ES/Icons_svg/plot.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=plot" />
+            <space />
+            <key key="place" value="plot" />
+            <key key="admin_level" value="16" />
+            <reference ref="sub_city" />
+        </item> <!-- Plot -->
+    </group> <!-- Places_ES -->
+</presets>
