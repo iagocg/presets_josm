@@ -5,7 +5,7 @@ shortdescription="Places_ES"
 es.shortdescription="Lugares_ES"
 gl.shortdescription="Lugares_ES"
 description="Tag easily places (entities and territories) from Spain."
-version="0.3_2019-12-28"
+version="0.4_2019-12-28"
 link="https://raw.githubusercontent.com/iagocg/presets_josm/master/Places_ES/Places_ES.xml"
 icon="city.png"
 baselanguage="en"
@@ -355,7 +355,6 @@ baselanguage="en"
             <link wiki="Tag:place=city" />
             <space />
             <key key="place" value="city" />
-            <key key="admin_level" value="10" />
             <reference ref="entities" />
         </item> <!-- City -->
         <item
@@ -369,7 +368,6 @@ baselanguage="en"
             <link wiki="Tag:place=town" />
             <space />
             <key key="place" value="town" />
-            <key key="admin_level" value="10" />
             <reference ref="entities" />
         </item> <!-- Town -->
         <item
@@ -383,7 +381,6 @@ baselanguage="en"
             <link wiki="Tag:place=village" />
             <space />
             <key key="place" value="village" />
-            <key key="admin_level" value="10" />
             <reference ref="entities" />
         </item> <!-- Village -->
         <item
@@ -397,7 +394,6 @@ baselanguage="en"
             <link wiki="Tag:place=hamlet" />
             <space />
             <key key="place" value="hamlet" />
-            <key key="admin_level" value="10" />
             <reference ref="entities" />
         </item> <!-- Hamlet -->
         <item
@@ -411,7 +407,6 @@ baselanguage="en"
             <link wiki="Tag:place=allotments" />
             <space />
             <key key="place" value="allotments" />
-            <key key="admin_level" value="10" />
             <reference ref="entities" />
         </item> <!-- Allotments -->
         <item
@@ -425,7 +420,6 @@ baselanguage="en"
             <link wiki="Tag:place=isolated_dwelling" />
             <space />
             <key key="place" value="isolated_dwelling" />
-            <key key="admin_level" value="10" />
             <reference ref="entities" />
         </item> <!-- Isolated Dwelling -->
         <separator/>
@@ -440,7 +434,6 @@ baselanguage="en"
             <link wiki="Tag:place=borough" />
             <space />
             <key key="place" value="borough" />
-            <key key="admin_level" value="11" />
             <reference ref="sub_city" />
         </item> <!-- Borough -->
         <item
@@ -454,7 +447,6 @@ baselanguage="en"
             <link wiki="Tag:place=suburb" />
             <space />
             <key key="place" value="suburb" />
-            <key key="admin_level" value="12" />
             <reference ref="sub_city" />
         </item> <!-- Suburb -->
         <item
@@ -468,7 +460,6 @@ baselanguage="en"
             <link wiki="Tag:place=quarter" />
             <space />
             <key key="place" value="quarter" />
-            <key key="admin_level" value="13" />
             <reference ref="sub_city" />
         </item> <!-- Quarter -->
         <item
@@ -482,7 +473,6 @@ baselanguage="en"
             <link wiki="Tag:place=neighbourhood" />
             <space />
             <key key="place" value="neighbourhood" />
-            <key key="admin_level" value="14" />
             <reference ref="sub_city" />
         </item> <!-- Neighbourhood -->
         <item
@@ -496,7 +486,6 @@ baselanguage="en"
             <link wiki="Tag:place=city_block" />
             <space />
             <key key="place" value="city_block" />
-            <key key="admin_level" value="15" />
             <reference ref="sub_city" />
         </item> <!-- City Block -->
         <item
@@ -510,7 +499,6 @@ baselanguage="en"
             <link wiki="Tag:place=plot" />
             <space />
             <key key="place" value="plot" />
-            <key key="admin_level" value="16" />
             <reference ref="sub_city" />
         </item> <!-- Plot -->
     </group> <!-- Places_ES -->
