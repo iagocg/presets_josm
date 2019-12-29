@@ -4,7 +4,7 @@ meta {
     description: "Displays nodes with [place=*] for Spain.";
     icon: "city.svg";
     author: "Iago Casabiell González";
-    link: "https://josm.openstreetmap.de/wiki/Styles/Places_ES_styles"
+    link: "https://raw.githubusercontent.com/iagocg/presets_josm/master/Places_ES_styles/Places_ES_styles.mapcss"
 }
 
 /*-- Territories --*/
