@@ -1,0 +1,125 @@
+meta {
+    title: "Places_ES_styles";
+    version: "0.1_2019-12-29";
+    description: "Displays nodes with [place=*] for Spain.";
+    icon: "city.svg";
+    author: "Iago Casabiell González";
+    link: "https://josm.openstreetmap.de/wiki/Styles/Places_ES_styles"
+}
+
+/*-- Territories --*/
+node[place=country] 
+{
+    icon-image: "territory02.svg";
+    text: auto;
+}
+
+node[place=state] 
+{
+    icon-image: "territory04.svg";
+    text: auto;
+}
+
+node[place=province] 
+{
+    icon-image: "territory06.svg";
+    text: auto;
+}
+
+node[place=county] 
+{
+    icon-image: "territory07.svg";
+    text: auto;
+}
+
+node[place=municipality] 
+{
+    icon-image: "territory08.svg";
+    text: auto;
+}
+
+node[place=civil_parish] 
+{
+    icon-image: "territory09.svg";
+    text: auto;
+}
+
+node[place=ward] 
+{
+    icon-image: "territory10.svg";
+    text: auto;
+}
+
+/*-- Entities --*/
+node[place=city] 
+{
+    icon-image: "city.svg";
+    text: auto;
+}
+
+node[place=town] 
+{
+    icon-image: "town.svg";
+    text: auto;
+}
+
+node[place=village] 
+{
+    icon-image: "village.svg";
+    text: auto;
+}
+
+node[place=hamlet] 
+{
+    icon-image: "hamlet.svg";
+    text: auto;
+}
+
+node[place=allotments] 
+{
+    icon-image: "allotments.svg";
+    text: auto;
+}
+
+node[place=isolated_dwelling] 
+{
+    icon-image: "isolated_dwelling.svg";
+    text: auto;
+}
+
+/*-- Sub-city entities --*/
+node[place=borough] 
+{
+    icon-image: "borough.svg";
+    text: auto;
+}
+
+node[place=suburb] 
+{
+    icon-image: "suburb.svg";
+    text: auto;
+}
+
+node[place=quarter] 
+{
+    icon-image: "quarter.svg";
+    text: auto;
+}
+
+node[place=neighbourhood] 
+{
+    icon-image: "neighbourhood.svg";
+    text: auto;
+}
+
+node[place=city_block] 
+{
+    icon-image: "city_block.svg";
+    text: auto;
+}
+
+node[place=plot] 
+{
+    icon-image: "plot.svg";
+    text: auto;
+}
