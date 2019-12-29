@@ -1,6 +1,6 @@
 meta {
     title: "Places_ES_styles";
-    version: "0.1_2019-12-29";
+    version: "0.2_2019-12-29";
     description: "Displays nodes with [place=*] for Spain.";
     icon: "city.svg";
     author: "Iago Casabiell González";
@@ -59,31 +59,31 @@ node[place=city]
 
 node[place=town] 
 {
-    icon-image: "town.svg";
+    icon-image: "town.2.svg";
     text: auto;
 }
 
 node[place=village] 
 {
-    icon-image: "village.svg";
+    icon-image: "village.2.svg";
     text: auto;
 }
 
 node[place=hamlet] 
 {
-    icon-image: "hamlet.svg";
+    icon-image: "hamlet.2.svg";
     text: auto;
 }
 
 node[place=allotments] 
 {
-    icon-image: "allotments.svg";
+    icon-image: "allotments.2.svg";
     text: auto;
 }
 
 node[place=isolated_dwelling] 
 {
-    icon-image: "isolated_dwelling.svg";
+    icon-image: "isolated_dwelling.2.svg";
     text: auto;
 }
 
