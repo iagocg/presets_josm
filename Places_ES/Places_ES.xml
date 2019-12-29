@@ -5,7 +5,7 @@ shortdescription="Places_ES"
 es.shortdescription="Lugares_ES"
 gl.shortdescription="Lugares_ES"
 description="Tag easily places (entities and territories) from Spain."
-version="0.4_2019-12-28"
+version="0.5_2019-12-28"
 link="https://raw.githubusercontent.com/iagocg/presets_josm/master/Places_ES/Places_ES.xml"
 icon="city.png"
 baselanguage="en"
@@ -27,6 +27,9 @@ baselanguage="en"
         />
         <combo
         key="capital"
+        text="Capital"
+        es.text="Capital"
+        gl.text="Capital"
         values_searchable="true"
         values_sort="false"
         >
