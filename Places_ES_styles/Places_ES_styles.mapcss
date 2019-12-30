@@ -1,6 +1,6 @@
 meta {
     title: "Places_ES_styles";
-    version: "0.2_2019-12-29";
+    version: "0.3_2019-12-29";
     description: "Displays nodes with [place=*] for Spain.";
     icon: "city.svg";
     author: "Iago Casabiell González";
@@ -65,7 +65,7 @@ node[place=town]
 
 node[place=village] 
 {
-    icon-image: "village.2.svg";
+    icon-image: "village.3.svg";
     text: auto;
 }
 

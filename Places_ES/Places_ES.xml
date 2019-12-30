@@ -5,7 +5,7 @@ shortdescription="Places_ES"
 es.shortdescription="Lugares_ES"
 gl.shortdescription="Lugares_ES"
 description="Tag easily places (entities and territories) from Spain."
-version="0.7_2019-12-29"
+version="0.8_2019-12-29"
 link="https://raw.githubusercontent.com/iagocg/presets_josm/master/Places_ES/Places_ES.xml"
 icon="city.svg"
 baselanguage="en"
@@ -377,7 +377,7 @@ baselanguage="en"
         name="Village"
         es.name="Pueblo"
         gl.name="Vila pequena"
-        icon="village.svg"
+        icon="village.3.svg"
         type="node,closedway"
         preset_name_label="true"
         >
@@ -386,19 +386,6 @@ baselanguage="en"
             <key key="place" value="village" />
             <reference ref="entities" />
         </item> <!-- Village -->
-        <item
-        name="Hamlet"
-        es.name="Aldea"
-        gl.name="Aldea"
-        icon="hamlet.svg"
-        type="node,closedway"
-        preset_name_label="true"
-        >
-            <link wiki="Tag:place=hamlet" />
-            <space />
-            <key key="place" value="hamlet" />
-            <reference ref="entities" />
-        </item> <!-- Hamlet -->
         <item
         name="Allotments"
         es.name="Urbanización"
@@ -412,6 +399,19 @@ baselanguage="en"
             <key key="place" value="allotments" />
             <reference ref="entities" />
         </item> <!-- Allotments -->
+        <item
+        name="Hamlet"
+        es.name="Aldea"
+        gl.name="Aldea"
+        icon="hamlet.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=hamlet" />
+            <space />
+            <key key="place" value="hamlet" />
+            <reference ref="entities" />
+        </item> <!-- Hamlet -->
         <item
         name="Isolated Dwelling"
         es.name="Viviendas aisladas"
