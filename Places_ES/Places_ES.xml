@@ -5,7 +5,7 @@ shortdescription="Places_ES"
 es.shortdescription="Lugares_ES"
 gl.shortdescription="Lugares_ES"
 description="Tag easily places (entities and territories) from Spain."
-version="0.8_2019-12-29"
+version="1.0_2020-01-13"
 link="https://raw.githubusercontent.com/iagocg/presets_josm/master/Places_ES/Places_ES.xml"
 icon="city.svg"
 baselanguage="en"
@@ -387,19 +387,6 @@ baselanguage="en"
             <reference ref="entities" />
         </item> <!-- Village -->
         <item
-        name="Allotments"
-        es.name="Urbanización"
-        gl.name="Urbanización"
-        icon="allotments.svg"
-        type="node,closedway"
-        preset_name_label="true"
-        >
-            <link wiki="Tag:place=allotments" />
-            <space />
-            <key key="place" value="allotments" />
-            <reference ref="entities" />
-        </item> <!-- Allotments -->
-        <item
         name="Hamlet"
         es.name="Aldea"
         gl.name="Aldea"
@@ -491,18 +478,5 @@ baselanguage="en"
             <key key="place" value="city_block" />
             <reference ref="sub_city" />
         </item> <!-- City Block -->
-        <item
-        name="Plot"
-        es.name="Parcela"
-        gl.name="Parcela"
-        icon="plot.svg"
-        type="node,closedway"
-        preset_name_label="true"
-        >
-            <link wiki="Tag:place=plot" />
-            <space />
-            <key key="place" value="plot" />
-            <reference ref="sub_city" />
-        </item> <!-- Plot -->
     </group> <!-- Places_ES -->
 </presets>
