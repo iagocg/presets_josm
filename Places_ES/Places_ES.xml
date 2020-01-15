@@ -5,7 +5,7 @@ shortdescription="Places_ES"
 es.shortdescription="Lugares_ES"
 gl.shortdescription="Lugares_ES"
 description="Tag easily places (entities and territories) from Spain."
-version="1.1_2020-01-15"
+version="1.2_2020-01-15"
 link="https://raw.githubusercontent.com/iagocg/presets_josm/master/Places_ES/Places_ES.xml"
 icon="city.svg"
 baselanguage="en"
@@ -95,7 +95,7 @@ baselanguage="en"
         gl.text="Fonte do censo de poboación"
         />
         <text
-        key="ref"
+        key="ref:ine"
         text="INE code"
         es.text="Código INE"
         gl.text="Código INE"
@@ -119,6 +119,12 @@ baselanguage="en"
         text="Source"
         es.text="Fuente"
         gl.text="Fonte"
+        />
+        <text
+        key="ele"
+        text="Elevation"
+        es.text="Altitud"
+        gl.text="Altitude"
         />
     </chunk>
     <chunk id="territories">
@@ -153,7 +159,7 @@ baselanguage="en"
         gl.text="Fonte do censo de poboación"
         />
         <text
-        key="ref"
+        key="ref:ine"
         text="INE code"
         es.text="Código INE"
         gl.text="Código INE"
@@ -211,7 +217,7 @@ baselanguage="en"
         gl.text="Fonte do censo de poboación"
         />
         <text
-        key="ref"
+        key="ref:ine"
         text="INE code"
         es.text="Código INE"
         gl.text="Código INE"
@@ -394,6 +400,19 @@ baselanguage="en"
             <key key="place" value="isolated_dwelling" />
             <reference ref="entities" />
         </item> <!-- Isolated Dwelling -->
+        <item
+        name="Farm"
+        es.name="Granja"
+        gl.name="Granxa"
+        icon="farm.svg"
+        type="node,closedway"
+        preset_name_label="true"
+        >
+            <link wiki="Tag:place=farm" />
+            <space />
+            <key key="place" value="farm" />
+            <reference ref="entities" />
+        </item> <!-- Farm -->
         <separator/>
         <item
         name="Borough"
